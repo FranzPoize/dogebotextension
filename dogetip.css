@@ -1,0 +1,21 @@
+.dogetip-popup {
+	padding:10px;
+	border-radius: 3px;
+	border:1px solid rgb(199,199,199);
+	background-color: #fff;
+}
+
+.dogetip-popup input,
+.dogetip-popup button,
+.dogetip-popup img {
+	height: 22px;
+}
+
+.dogetip-popup button {
+	margin:0;
+}
+
+.dogetip-popup img {
+	position: relative;
+	top: 5px;
+}

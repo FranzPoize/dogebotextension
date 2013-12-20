@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "one-click dogetip",
+  "description": "This extension makes it",
+  "version": "1.0",
+
+  "permissions": [
+    "https://www.reddit.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches":["*://*.reddit.com/*"],
+      "css": ["dogetip.css"],
+      "js": ["jquery.js","dogetip.js"]
+    }
+  ],
+  "web_accessible_resources": ["images/dogecoin.png"]
+}
